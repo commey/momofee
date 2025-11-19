@@ -1,0 +1,13 @@
+{
+  "mtn": [
+    {"min":1,"max":100,"fee":0.5},
+    {"min":101,"max":200,"fee":1.0},
+    {"min":201,"max":300,"fee":1.5},
+    {"min":301,"max":400,"fee":2.0},
+    {"min":401,"max":500,"fee":2.5},
+    {"min":501,"max":1000,"fee":3.0},
+    {"min":1001,"max":1000000,"percent":1.5}
+  ],
+  "telecel": {"percent":1,"minFee":0.5},
+  "airteltigo": {"percent":1,"minFee":0.5}
+}

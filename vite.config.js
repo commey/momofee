@@ -14,7 +14,7 @@ export default defineConfig(({ command }) => {
   if (command === 'build') {
     // [IMPORTANT] REPLACE '<REPO_NAME>' with your repository name (e.g., '/my-app/')
     // If deploying to https://username.github.io, set this to '/'
-    config.base = '/<REPO_NAME>/'
+    config.base = '/momofee/'
   }
 
   return config

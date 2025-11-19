@@ -9,9 +9,9 @@ const loading = ref(true)
 const error = ref(null)
 
 const networks = [
-  { id: 'mtn', name: 'MTN MoMo', image: '/images/mtn.webp' },
-  { id: 'telecel', name: 'Telecel Cash', image: '/images/telecel.webp' },
-  { id: 'airteltigo', name: 'AirtelTigo', image: '/images/at.webp' }
+  { id: 'mtn', name: 'MTN MoMo', image: `${import.meta.env.BASE_URL}images/mtn.webp` },
+  { id: 'telecel', name: 'Telecel Cash', image: `${import.meta.env.BASE_URL}images/telecel.webp` },
+  { id: 'airteltigo', name: 'AirtelTigo', image: `${import.meta.env.BASE_URL}images/at.webp` }
 ]
 
 onMounted(async () => {
